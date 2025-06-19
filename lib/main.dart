@@ -12,14 +12,7 @@ import 'package:provider/provider.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
-    // options: FirebaseOptions(
-    //   apiKey: "AIzaSyA9gh1a7CSY5DN5-cbuByAeL3upiMYvCvQ",
-    //   authDomain: "instagramclone-5cbdf.firebaseapp.com",
-    //   projectId: "instagramclone-5cbdf",
-    //   storageBucket: "instagramclone-5cbdf.firebasestorage.app",
-    //   messagingSenderId: "650053337360",
-    //   appId: "1:650053337360:web:9c60922c13505fa0af2595",
-    // ),
+    
   );
   runApp(const MyApp());
 }
